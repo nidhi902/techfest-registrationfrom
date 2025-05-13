@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    /* margin: 0;
+    padding: 0; */
+}
+
+header {
+    background-color: #444452;
+    color: white;
+    text-align: center;
+   
+    padding-top: 10px;
+    padding-bottom: 5px;
+    
+}
+
+main {
+    background-color: #F5F5F5; 
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+h1, h2 {
+    margin: 10px 0;
+}
+
+p {
+    margin: 10px 0;
+    line-height: 1.5;
+}
+
+.overview, .speakers, .schedule, .registration {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #9eaef3; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.register-button {
+    background-color: #E94E77; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px; 
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.register-button:hover {
+    background-color: #D43F6A; 
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
